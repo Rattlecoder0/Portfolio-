@@ -1,0 +1,559 @@
+.skills{
+    margin-top: 10vh;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid var(--primary-color);
+    min-height: 100vh;
+    background-size: cover;
+}
+.bgborderbox{
+    background-color: rgb(15, 187, 255);
+    height: 92vh;
+    position: relative;
+    margin-top: 3.5vh;
+}
+.whitecont{
+    display: flex;
+    justify-content: center;
+}
+.bgwhitebox{
+    background-color:var(--primary-color);
+    min-height: 92vh;
+    width: 97%;
+}
+.txtskill{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    color: var(--secondary-color);
+    padding-bottom: 1.6%;
+    padding-top: 7vh;
+}
+.skillscontent{
+    margin-top: 1%;
+}
+.row1{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 2%;
+    height: 20vh;
+    justify-content: space-evenly;
+}
+.row2{
+    display: flex;
+    margin: 0 13%;
+    height: 23vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row3{
+    display: flex;
+    margin: 0 20%;
+    height: 23vh;
+    padding-top: 2%;
+    justify-content: space-evenly;
+}
+
+/* ------LOGOS-------- */
+.vidshoot{
+    background-image: linear-gradient(90deg, rgba(4, 9, 30, 0.966), rgba(4, 9, 30, 0.562), rgba(4, 9, 30, 0.2)), url(/images/videoshoting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19vh;
+    width: 20vw;
+    transition: 0.3s ease;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 0px var(--secondary-color);
+}
+.videdit{
+    background-image: linear-gradient(90deg, rgba(4, 9, 30, 0.966), rgba(4, 9, 30, 0.562), rgba(4, 9, 30, 0.2)), url(/images/videoediting.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19vh;
+    width: 20vw;
+    transition: 0.3s ease;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 0px var(--secondary-color);
+}
+.vidshoot:hover{
+box-shadow: 0 0 0 var(--secondary-color);
+transform: translateX(5px) translateY(5px);
+}
+.videdit:hover{
+box-shadow: 0 0 0 var(--secondary-color);
+transform: translateX(5px) translateY(5px);
+}
+.html5,.js{
+    width: 7vw;
+}
+.js{
+    padding-top: .27vw;
+    width: 10.5vw;
+}
+.cc{
+    width: 9vw;
+}
+.htmltext,.csstext,.jstext{
+    text-align: center;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+.HTML{
+    padding-right: 2vw;
+}
+.nodejs{
+    padding-top: 15%;
+}
+.angularr{
+    padding-top: 20%;
+}
+.mongodb{
+    padding-top: 20%;
+}
+.booot{
+    padding-top: 15%;
+    width: 7vw;
+}
+.angularr,.mongodb{
+    width: 12vw;
+}
+
+/* ----TEXT----- */
+.nodetxt,.angtxt,.montxt,.boottxt{
+    text-align: center;
+    color: var(--secondary-color);
+}
+.jstext{
+    padding-top: 4.5%;
+}
+.nodetxt{
+    padding-top: 10%;
+    font-size: 16px;
+}
+.angtxt{
+    padding-top: 18.5%;
+    font-size: 16px;
+}
+.montxt{
+    padding-top: 22%;
+    font-size: 16px;
+}
+.boottxt{
+    font-size: 16px;
+    padding-top: 18.6%;
+}
+.shottxt,.edittxt{
+    padding-top: 20%;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+@media(max-width: 1280px){
+    .txtskill{
+        font-size: 3vw;
+    }
+    .bgwhitebox{
+        height: 88vh;
+        width: 97%;
+        margin-top: -.8vh;
+    }
+    .bgborderbox{
+        height: 87vh;
+        margin-top: 6vh;
+    }
+    .skillscontent{
+        margin-top: 4vh;
+    }
+    .vidshoot{
+        height: 19vh;
+        width: 23vw;
+        box-shadow: 0 2px 10px var(--secondary-color);
+
+    }
+    .videdit{
+        height: 19vh;
+        width: 23vw;
+        box-shadow: 0 2px 10px var(--secondary-color);
+    }
+    .html5,.JS{
+        width: 7vw;
+    }
+    .js{
+        padding-top: .27vw;
+        width: 10.5vw;
+    }
+    .cc{
+        width: 9vw;
+    }
+    .HTML{
+        padding-right: 2vw;
+    }
+    .nodejs{
+        padding-top: 18%;
+    }
+    .angularr{
+        padding-top: 22%;
+        width: 12vw;
+    }
+    .mongodb{
+        padding-top: 14%;
+        width: 15vw;
+    }
+    .booot{
+        padding-top: 13%;
+        width: 7vw;
+    }
+    
+    /* ----TEXT----- */
+    .jstext{
+        padding-top: 4.5%;
+    }
+    .nodetxt{
+        padding-top: 11%;
+    }
+    .angtxt{
+        padding-top: 18.5%;
+    }
+    .montxt{
+        padding-top: 14%;
+    }
+}
+
+@media(max-width: 992px){
+    .bgborderbox{
+        margin-top: 6vh;
+        height: 91vh;
+    }
+    .row3{
+        display: block;
+        margin-top: 3vh;
+    }
+    .row2{
+       margin-top: -9vh;
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+    .row1{
+        margin-top: 3vh;
+    }
+    .txtskill{
+        font-size: 6vw;
+        padding-top: 3vh;
+    }
+    .bgwhitebox{
+        height: 93vh;
+        width: 97%;
+        margin-top: -.8vh;
+    }
+    .skillscontent{
+        margin-top: 1vh;
+    }
+    .vidshoot{
+        height: 16vh;
+        width: 51vw;
+        box-shadow: 1px 0 10px rgba(70, 70, 70, 0.925);
+        margin: 4vw;
+        font-size: 20px;
+    }
+    .videdit{
+        height: 16vh;
+        width: 51vw;
+        box-shadow: 2px 0 10px rgba(70, 70, 70);
+        margin: 4vw;
+        font-size: 20px;
+    }
+    .html5,.js{
+        width: 12vw;
+    }
+    .js{
+        padding-top: .34vw;
+        width: 18.7vw;
+    }
+    .cc{
+        width: 15vw;
+        padding-right: 4vw;
+    }
+    .HTML{
+        padding-right: 4vw;
+    }
+    .nodejs{
+        padding-top: 27%;
+        width: 14vw;
+    }
+    .angularr{
+        padding-top: 25%;
+        width: 19vw;
+    }
+    /* ---divs-- */
+    .node{
+        margin-left: 4%;
+    }
+    .angular{
+        margin-left: 4%;
+    }
+    .boot{
+        margin-left: 4%;
+    }
+    /* ----  */
+    .mongodb{
+        padding-top: 23%;
+        width: 20vw;
+    }
+    .booot{
+        margin-left: 28vw;
+    }
+    
+    /* ----TEXT----- */
+    .htmltext,.csstext,.jstext{
+        font-size: 18px;
+    }
+    .txt{
+        font-size: 18px;
+    }
+    .jstext{
+        padding-top: 5.8%;
+    }
+    .nodetxt{
+        padding-top: 11%;
+        padding-left: 18%;
+        text-align: left;
+    }
+    .angtxt{
+        padding-top: 20%;
+    }
+    .montxt{
+        padding-top: 20%;
+        padding-right: 10%;
+    }
+    .boottxt{
+        margin-left: 25vw;
+        padding: 0;
+    }
+}
+ @media(max-width: 820px){
+    .txtskill{
+        margin-top: 0;   
+    }
+    .bgborderbox{
+        height: 90vh;
+    }
+    .skillscontent{
+        margin-top: 6vh;
+    }
+    .txt{
+        font-size: 18px;
+    }
+    .angtxt{
+        padding-top: 21%;
+    }
+    .booot{
+        width: 15vw;
+    }
+    .boot{
+        margin-top: -1vh;
+    }
+    .row3{
+        margin-top: 1.3vh;
+    }
+ }
+
+ @media(max-width: 770px)
+{
+.bgborderbox{
+    height: 93vh;
+}
+.bgwhitebox{
+    height: 94vh;
+}
+    .shottxt,.edittxt{
+        padding-top: 18%;
+    }
+.boot{
+    margin-top: -1.5vh;
+}
+.row3{
+    margin-top: 4vh;
+}
+}
+
+@media(max-width: 550px){
+     .bgborderbox{
+        margin-top: 6vh;
+    }
+    .row3{
+        display: block;
+    }
+    .row2{
+       margin-top: -9vh;
+    }
+    .row1{
+        margin-top: 3vh;
+    }
+    .txtskill{
+        font-size: 7vw;
+        margin-top: -2vh;
+    }
+    .bgwhitebox{
+        height: 94vh;
+        width: 97%;
+        margin-top: -.8vh;
+    }
+    .skillscontent{
+        margin-top: 4vh;
+    }
+    .vidshoot{
+        width: 47vw;
+        font-size: 10px;
+        letter-spacing: 2px;
+        margin-left: 5.5vw;
+    }
+    .videdit{
+        width: 47vw;
+        margin: 4vw;
+        letter-spacing: 2px;
+        font-size: 10px;
+        margin-left: 5.5vw;
+    }
+    .html5,.JS{
+        width: 12vw;
+    }
+    .js{
+        padding-top: .34vw;
+        width: 18.7vw;
+    }
+    .cc{
+        width: 15vw;
+        padding-right: 4vw;
+    }
+
+    .HTML{
+        padding-right: 4vw;
+    }
+    .nodejs{
+        padding-top: 27%;
+        width: 14vw;
+    }
+    .angularr{
+        padding-top: 25%;
+        width: 19vw;
+    }
+    .mongodb{
+        padding-top: 23%;
+        width: 20vw;
+    }
+    .booot{
+        margin-left: 28vw;
+    }
+    
+    /* ----TEXT----- */
+    .txt{
+        font-size: 12px;
+    }
+    .htmltext,.csstext,.jstext{
+        font-size: 12px;
+    }
+    .jstext{
+        padding-top: 5.8%;
+    }
+    .nodetxt{
+        padding-top: 11%;
+    }
+    .angtxt{
+        padding-top: 19.5%;
+    }
+    .montxt{
+        padding-top: 20%;
+    }
+    .boottxt{
+        margin-left: 25vw;
+    }
+    .shottxt,.edittxt{
+        padding-top: 20%;
+    }
+}
+
+@media(max-width: 415px){
+    .skills{
+        margin-top: 0vh;
+        min-height: 70vh;
+    }
+    .txtskill{
+        margin-top: 1vh;
+    }
+    .bgborderbox{
+        height: 78vh;
+        z-index: -1;
+    }
+    .bgwhitebox{
+        z-index: -1;
+    }
+    .skillscontent{
+        margin-top: 1vh;
+    }
+    .vidshoot{
+        height: 14vh;
+        width: 65vw;
+        box-shadow: 0 2px 10px var(--secondary-color);
+    }
+    .videdit{
+        height: 14vh;
+        width: 65vw;
+        box-shadow: 0 2px 10px var(--secondary-color);
+    }
+    .row3{
+        margin-top: -2vh;
+        margin-left: 11vw;
+        
+    }
+    .html5,.js{
+        width: 15vw;
+    }
+    .js{
+        padding-top: .27vw;
+        width: 24vw;
+    }
+    .nodejs{
+        padding-top: 18%;
+    }
+    .angularr{
+        padding-top: 18%;
+    }
+    .mongodb{
+        padding-top: 16%;
+    }
+    .booot{
+        padding-top: 13%;
+    }
+    
+    /* ----TEXT----- */
+    .jstext{
+        padding-top: 3.5%;
+    }
+    .nodetxt{
+        padding-top: 11%;
+    }
+    .angtxt{
+        padding-top: 19.5%;
+    }
+    .montxt{
+        padding-top: 19.9%;
+    }
+    .boottxt{
+        padding-top: 5%;
+    }
+}
+
+@media(max-width: 380px){
+    .shottxt,.edittxt{
+        padding-top: 15%;
+    }
+    .bgborderbox{
+        height: 79vh;
+    }
+    .row2{
+        padding-top: 2vh;
+    }
+    .row3{
+        padding-top: 1vh;
+    }
+}
